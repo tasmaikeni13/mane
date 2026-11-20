@@ -1,0 +1,12 @@
+section,optimizer,seed,tag,final_val
+pilot,lion_mane,0,_pilot_lr1e-4,6.69915
+pilot,lion_mane,0,_pilot_lr2e-4,7.41224
+pilot,lion_mane,0,_pilot_lr5e-5,5.12828
+pilot,lion_mane,0,_pilot_lr5e-5s025,17.30484
+pilot,adamw,0,_pilot_lr1e-3,4.28845
+pilot,adamw,0,_pilot_lr2e-3,17.24808
+pilot,adamw,0,_pilot_lr3e-4,4.87934
+pilot,adamw,0,_pilot_lr6e-4,4.48695
+pilot,lion,0,_pilot_lr1e-4,7.41239
+pilot,lion,0,_pilot_lr2e-4,7.41272
+pilot,lion,0,_pilot_lr5e-5,4.72609

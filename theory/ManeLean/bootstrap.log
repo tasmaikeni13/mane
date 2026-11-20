@@ -1,0 +1,33 @@
+=== [1/4] lake update (resolve deps at pinned rev) ===
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Decompressed 8538 already-cached file(s)
+Completed successfully in 29208 ms!
+=== [2/4] sync toolchain from mathlib ===
+toolchain now: leanprover/lean4:v4.31.0
+info: mathlib: running post-update hooks
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8542 file(s)
+=== [3/4] lake exe cache get ===
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8542 file(s)
+=== [4/4] lake build ===
+⚠ [2966/2968] Built ManeLean.OptimalGate (3.8s)
+warning: ManeLean/OptimalGate.lean:59:42: Variable name `ha` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ManeLean/OptimalGate.lean:60:5: Variable name `hg0` is not explicitly referenced.
+
+The binding can be removed (if unused) or named `_` (if used implicitly).
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [2967/2968] Built ManeLean (2.1s)
+Build completed successfully (2968 jobs).
+=== bootstrap done, build exit=0 ===
